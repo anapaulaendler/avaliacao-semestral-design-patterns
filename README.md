@@ -8,7 +8,7 @@ Escolhi usar o padrão Factory, porque ele facilita a criação de objetos compl
 
 Dessa forma, a lógica de criação dos relatórios é centralizada, possibilitando para que sejam adicionados novos relatórios sem modificar os existentes.
 
-# Questão 2 - Sistema Bancário
+# Questão 2 - Cálculo de Risco
 
 ## Descrição
 Uma plataforma de análise de investimentos precisa calcular o perfil de risco de clientes utilizando diferentes abordagens de cálculo (modelo agressivo, modelo moderado, modelo conservador). Cada abordagem utiliza fórmulas diferentes, pesos distintos e critérios próprios. O software deve permitir que o método de cálculo seja escolhido dinamicamente em tempo de execução, de acordo com o cliente ou conforme configurado por um consultor. Implemente uma solução em Java que permita alternar entre as diferentes lógicas de cálculo sem alterar o fluxo principal de análise, garantindo flexibilidade para adicionar novos modelos sem modificar os existentes.
